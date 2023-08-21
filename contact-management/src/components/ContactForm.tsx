@@ -29,7 +29,7 @@ function ContactForm() {
     }
     return (
         <>
-            <form className='flex-col flex items-start justify-center w-1/2 h-fit p-8 my-3 mx-auto' onSubmit={(e) => handleSubmit(e)}>
+            <form className='flex-col flex items-start justify-center w-full md:w-1/2 h-fit p-8 my-3 mx-auto' onSubmit={(e) => handleSubmit(e)}>
                 <input type="text" placeholder="Type First Name" className="input input-bordered w-full my-3" ref={nameRef} required />
                 <input type="text" placeholder="Type Last Name" className="input input-bordered w-full my-3" ref={jobRef} required />
                 <div className="status flex items-center justify-evenly my-3 w-full">
